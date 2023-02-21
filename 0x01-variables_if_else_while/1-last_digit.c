@@ -3,9 +3,10 @@
 #include <time.h>
 
 /**
- * main - still the if commands
- * return: 0 (success)
+ * main - we still have to use the if commands to random a number
+ * Return: 0 (success)
  */
+
 int main(void)
 {
 	int n;
@@ -23,7 +24,7 @@ int main(void)
 	{
 	printf("Last digit of %d is %d and is 0\n", n, l);
 	}
-	else if (n < 0}
+	else if (n < 0)
 	{
 	printf("Last digit of %-d is %d and is less than 6 and not 0\n", n, l);
 	}
